@@ -2,11 +2,12 @@
 :potable_water: A script to slowly copy files (namely photos and videos) from one system to another.
 
 I'm getting into photography and want to back up my stuff. Here's how I get media off my camera currently:
+
 1. Put a SD card into my computer.
 2. Copy all photos to a local folder on my computer (this is usually a multi-gig transfer that can take as long as 10 minutes)
 3. Mount my media server via ssh-fs as a local volume.
 4. Manually sort through all the pictures, and dump the ones that were taken on any given day in that day's folder. Each transfer takes a really long time.
-5. Once I'm sure that all my data has made it to the server, format the sd card and unmount the media server.
+5. Once I'm sure that all my data has made it to the server, unmount the media server.
 
 ## My new method
 ```
